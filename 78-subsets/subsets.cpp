@@ -14,6 +14,7 @@ public:
       // Yes
      temp.push_back(arr[index]);
      subseq(arr,index + 1,n,ans,temp);
+     temp.pop_back();
 }
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ans;
